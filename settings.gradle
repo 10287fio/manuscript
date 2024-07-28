@@ -1,1 +1,6 @@
 rootProject.name = 'publish'
+include 'untitled'
+include 'publish-controller'
+include 'publish-service'
+include 'publish-service'
+
