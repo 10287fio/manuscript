@@ -1,4 +1,4 @@
-package fragranceia.model.publish.service;
+package fragranceia.publish.service;
 
 public class PublishServiceApplication {
 }

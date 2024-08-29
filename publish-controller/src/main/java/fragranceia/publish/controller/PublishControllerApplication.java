@@ -1,4 +1,4 @@
-package fragranceia.model.publish.controller;
+package fragranceia.publish.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

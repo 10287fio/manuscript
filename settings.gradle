@@ -1,3 +1,0 @@
-rootProject.name = 'publish'
-include 'publish-controller'
-include 'publish-service'
