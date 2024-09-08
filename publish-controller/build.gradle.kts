@@ -16,4 +16,6 @@ java {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+    implementation("org.projectlombok:lombok:1.18.34")
+    annotationProcessor("org.projectlombok.lombok:1.18.34")
 }
