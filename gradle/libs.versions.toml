@@ -4,7 +4,7 @@ lombokVersion = "1.18.34"
 
 [libraries]
 springBootStarterWeb = { group = "org.springframework.boot", name = "spring-boot-starter-web", version.ref = "springBootVersion" }
-lombok = { group = "org.projectlombok:lombok", name = "lombok", version.ref = "lombokVersion" }
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombokVersion" }
 
 [plugins]
 springBoot = {id = "org.springframework.boot", version.ref ="springBootVersion"}
