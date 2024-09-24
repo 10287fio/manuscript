@@ -1,11 +1,11 @@
 plugins {
     id("convention")
-    id("org.springframework.boot") version "3.3.1"
-    id("io.spring.dependency-management") version "1.1.5"
+    alias(libs.plugins.springBoot)
+    alias(libs.plugins.dependencyManagement)
 }
 
 group = "fragranceia.publish.controller"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.1"
 
 java {
     toolchain {
@@ -14,8 +14,7 @@ java {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
-    implementation("org.projectlombok:lombok:1.18.34")
-    annotationProcessor("org.projectlombok.lombok:1.18.34")
+    implementation(libs.springBootStarterWeb)
+    compileOnly(libs.lombok)
+    annotationProcessor(libs.lombok)
 }
