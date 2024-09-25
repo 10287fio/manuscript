@@ -1,7 +1,7 @@
 plugins {
 }
 
-group = "fragranceia.model.publish.service"
+group = "fragranceia.manuscript.repository"
 version = "0.0.1-SNAPSHOT"
 
 dependencies {

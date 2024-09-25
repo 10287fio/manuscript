@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.dependencyManagement)
 }
 
-group = "fragranceia.publish.controller"
+group = "fragranceia.manuscript.controller"
 version = "0.0.1"
 
 java {
