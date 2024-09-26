@@ -1,20 +1,13 @@
 plugins {
-    id("convention")
-    alias(libs.plugins.springBoot)
-    alias(libs.plugins.dependencyManagement)
+    id("org.springframework.boot")
 }
 
 group = "fragranceia.manuscript.controller"
 version = "0.0.1"
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21));
-    }
+repositories{
+    mavenCentral()
 }
 
 dependencies {
-    implementation(libs.springBootStarterWeb)
-    compileOnly(libs.lombok)
-    annotationProcessor(libs.lombok)
 }
