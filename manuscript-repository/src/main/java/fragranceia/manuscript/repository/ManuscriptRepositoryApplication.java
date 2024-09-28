@@ -1,6 +1,6 @@
-package fragranceia.publish.repository;
+package fragranceia.manuscript.repository;
 
-public class PublishRepositoryApplication {
+public class ManuscriptRepositoryApplication {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
