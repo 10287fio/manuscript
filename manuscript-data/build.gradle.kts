@@ -2,7 +2,7 @@ plugins {
     id("org.springframework.boot")
 }
 
-group = "fragranceia.manuscript.repository"
+group = "fragranceia.manuscript.data"
 version = "0.0.1"
 
 dependencies {
