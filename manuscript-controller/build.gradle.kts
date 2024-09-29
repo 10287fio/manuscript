@@ -5,7 +5,7 @@ plugins {
 group = "fragranceia.manuscript.controller"
 version = "0.0.1"
 
-repositories{
+repositories {
     mavenCentral()
 }
 
